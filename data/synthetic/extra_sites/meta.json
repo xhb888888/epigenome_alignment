@@ -1,0 +1,11 @@
+{
+  "name": "extra_sites",
+  "n_points_A": 2000,
+  "n_points_B": 2104,
+  "mean_interval": 250,
+  "insert_rate": 0.05,
+  "model": "B from A by inserting points between existing points (motif gain)",
+  "coordinate_system": "0-based",
+  "seed_A": 42,
+  "seed_B": 44
+}

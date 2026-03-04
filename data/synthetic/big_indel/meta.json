@@ -1,0 +1,10 @@
+{
+  "name": "big_indel",
+  "n_points_A": 2000,
+  "n_points_B": 2000,
+  "mean_interval": 250,
+  "gap_size": 50000,
+  "model": "B from A by shifting suffix by a large amount (big indel)",
+  "coordinate_system": "0-based",
+  "seed_A": 42
+}

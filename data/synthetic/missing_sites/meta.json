@@ -1,0 +1,11 @@
+{
+  "name": "missing_sites",
+  "n_points_A": 2000,
+  "n_points_B": 1794,
+  "mean_interval": 250,
+  "delete_rate": 0.1,
+  "model": "B from A by deleting internal points (motif loss)",
+  "coordinate_system": "0-based",
+  "seed_A": 42,
+  "seed_B": 43
+}

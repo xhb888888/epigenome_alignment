@@ -1,0 +1,9 @@
+{
+  "name": "clean",
+  "n_points_A": 2000,
+  "n_points_B": 2000,
+  "mean_interval": 250,
+  "model": "B = A (no noise)",
+  "coordinate_system": "0-based",
+  "seed_A": 42
+}

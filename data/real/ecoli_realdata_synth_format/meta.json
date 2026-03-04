@@ -1,0 +1,9 @@
+{
+  "dataset": "Ecoli_K12_vs_O157_GATC_positions",
+  "motif": "GATC",
+  "coordinate_system": "0-based",
+  "A_genome": "E. coli K-12 MG1655",
+  "B_genome": "E. coli O157:H7 EDL933",
+  "A_sites": 19124,
+  "B_sites": 21372
+}
