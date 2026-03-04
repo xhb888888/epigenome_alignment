@@ -3,6 +3,7 @@
 import os
 import json
 import argparse
+import time
 import numpy as np
 
 
@@ -174,6 +175,7 @@ def main():
     if len(A_int) == 0 or len(B_int) == 0:
         raise ValueError('Empty interval array')
 
+    start_time = time.perf_counter()
     best_score, path = run_dp(
         A_int,
         B_int,
@@ -183,6 +185,8 @@ def main():
         args.eps,
         args.hard_eps,
     )
+    runtime = time.perf_counter() - start_time
+    print(f"Time taken: {runtime:.2f} seconds")
 
     # collect stats
     n_match = 0
@@ -246,6 +250,7 @@ def main():
 
     summary = {
         'best_score': float(best_score),
+        'runtime_seconds': runtime,
         'A_num_intervals': int(len(A_int)),
         'B_num_intervals': int(len(B_int)),
         'n_match': int(n_match),
