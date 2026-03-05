@@ -1,0 +1,19 @@
+{
+  "n_A_sites": 19124,
+  "n_B_sites": 21372,
+  "n_matched": 16651,
+  "n_gap_a": 1743,
+  "n_gap_b": 392,
+  "match_rate_A": 0.8707,
+  "match_rate_B": 0.7791,
+  "runtime_s": 8497.62,
+  "error_mean_bp": 3.01,
+  "error_median_bp": 0.0,
+  "error_std_bp": 8.93,
+  "error_p90_bp": 11.0,
+  "error_p99_bp": 44.0,
+  "frac_within_eps": 1.0,
+  "frac_exact_match": 0.8354,
+  "best_score": 1408447.0,
+  "n_merge": 2563
+}
